@@ -1,19 +1,17 @@
 <html>
   <head>
     <script>
-
       function getStats(){
         var xmlHttp = new XMLHttpRequest();
         xmlHttp.open( "GET", 'https://corona.lmao.ninja/countries', false );
         xmlHttp.send( null );
         return xmlHttp.responseText;
         }
-      
+
       var thisIndex = 0;
       var stats = JSON.parse(getStats());
       var statLen = stats.length;
 
-    
       function spawnListData(){
         var selector = document.createElement("SELECT");
         selector.setAttribute("id", "user_country");
@@ -30,11 +28,10 @@
           document.getElementById("user_country").appendChild(z);
         }
       }
-    
+      
       function setResultData(){
         try{
           var ii = document.getElementById("user_country").selectedIndex;
-
           var Country = stats[ii].country;
           var TotalCases = stats[ii].cases;
           var TodayCases = stats[ii].todayCases;
