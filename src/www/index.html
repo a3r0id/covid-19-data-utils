@@ -32,9 +32,6 @@
       }
     
       function setResultData(){
-    
-        //alert(document.getElementById('user_country').value.lower);
-
         try{
           var ii = document.getElementById("user_country").selectedIndex;
 
@@ -56,12 +53,9 @@
         } catch ($e){
           alert($e);
         }
-
       }
-
       </script>
     <title>COVID CHART</title>
-
     <style>
       html,
       body{
@@ -98,21 +92,16 @@
   </head>
   <body>
 <!--BODY-->
-
 <div class="header-spacer"></div>
-
 <div class="input-form-box">
   <h2>Live Covid-19 Update WIKI</h2>
   <h5>Select Country</h5>
 </div>
-
   <div class="input-dropdown" id="input-dropdown">
     <a onclick="setResultData();" class="input-dropdown-style" id=>
       <script>spawnListData();</script>Click here to update (test) realtime functionality
-    
   </div>
 </a>
-
   <div class="output-box">
     <span><h4 id="output-country">Country: </h4></span>
     <span><h4 id="output-cases">Total Cases: </h4></span>
@@ -122,10 +111,7 @@
     <span><h4 id="output-recovered">Total Recovered: </h4></span>
     <span><h4 id="output-critical">Critical Condition: </h4></span>
   </div>
-
   <!--THIS SHOULD UPDATE THE RESULTS EVERYTIME USER INTERACTS WITH THE DROPDOWN-->
-
 </div>
-
   </body>
 </html>
