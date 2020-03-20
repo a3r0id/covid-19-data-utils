@@ -12,6 +12,7 @@ Interacts with the API.
 Hopefully this saves some people a few steps :)
 Enjoy!
 
+-------
 ```py
 
 from covid-19-utils import *
@@ -24,7 +25,7 @@ print(x.totalDeaths)
 print(x.totalRecovered)
 print(x.timeUpdatedUnix)
 ```
-
+-------
 ```py
 
 from covid-19-utils import *
