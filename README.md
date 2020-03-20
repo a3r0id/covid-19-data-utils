@@ -30,7 +30,7 @@ print(x.timeUpdatedUnix)
 ```
 -------
 
-### Using "countries" endpoint:
+### Using both endpoints:
 ```py
 
 from covid-19-utils import *
