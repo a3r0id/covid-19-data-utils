@@ -1,7 +1,7 @@
 # Covid 19 Tools
 
 ## THE API CREDIT GOES TO [corona.lmao.ninja](https://github.com/NovelCOVID/API), big thanks!
-[Their Discord] (https://discordapp.com/invite/EvbMshU)
+[Their Discord](https://discordapp.com/invite/EvbMshU)
 
 ## Javascript Example
 Just a basic (but totally working) concept for a live Covid-19 update webpage, by country.
