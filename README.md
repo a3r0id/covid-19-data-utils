@@ -12,5 +12,33 @@ Interacts with the API.
 Hopefully this saves some people a few steps :)
 Enjoy!
 
+```py
 
+from covid-19-utils import *
 
+#define the object
+x = covidUpdate(BOOL_country_data=False)
+
+print(x.totalCases)
+print(x.totalDeaths)
+print(x.totalRecovered)
+print(x.timeUpdatedUnix)
+```
+
+```py
+
+from covid-19-utils import *
+
+#define the object
+x = covidUpdate(BOOL_country_data=True)
+
+print(x.totalCases)
+print(x.totalDeaths)
+print(x.totalRecovered)
+print(x.timeUpdatedUnix)
+
+#Possible Usage: cases, todayCases, deaths, todayDeaths, recovered, active, critical, casesPerOneMillion
+print(x.countryData['China']['cases'])
+print(x.countryData['China']['todayCases'])
+
+```
