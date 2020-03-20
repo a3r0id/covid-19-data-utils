@@ -1,6 +1,16 @@
-# covid-19-live-update-api-concept
+# Covid 19 Tools
+
+## THE API CREDIT GOES TO [corona.lmao.ninja](https://github.com/NovelCOVID/API), big thanks!
+
+## Javascript Example
 Just a basic (but totally working) concept for a live Covid-19 update page ,by country, enjoy and stay safe!
 In a hurry but wanted to get this out :)
 I'll be sure to style it in the future, mabye later today!
 
-## API credit to [corona.lmao.ninja](https://corona.lmao.ninja/countries), big thanks!
+## Python API Wrapper
+Interacts with the API.
+Hopefully this saves some people a few steps :)
+Enjoy!
+
+
+
