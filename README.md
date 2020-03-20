@@ -13,6 +13,9 @@ Hopefully this saves some people a few steps :)
 Enjoy!
 
 -------
+
+### Without using "countries" endpoint:
+
 ```py
 
 from covid-19-utils import *
@@ -26,6 +29,8 @@ print(x.totalRecovered)
 print(x.timeUpdatedUnix)
 ```
 -------
+
+### Using "countries" endpoint:
 ```py
 
 from covid-19-utils import *
