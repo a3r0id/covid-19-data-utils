@@ -69,26 +69,5 @@ print(y.flagHtml)
 
 ```
 -------
-### Download/Interact With CDC World Map:
-```py
-
-from Covid19ApiWrapper import *
-
-#GET CURRENT CDC GLOBAL INFECTION MAP/LINKS
-x = getCdcWorldMap()
-
-print(x.WorldMapLocalFile)
-print(x.WorldMapLink)
-print(x.WorldMapHtml)
-
-#GET FLAG LINKS/DOWNLOAD FLAG PNG
-y = getCountryFlag("USA", download=True)
-
-print(y.flagLink)
-print(y.flagLocalFile)
-print(y.flagHtml)
-
-```
--------
 ### Enjoy and be safe!
 
