@@ -55,7 +55,7 @@ class getCountryFlag:
 class covidUpdate:
     def __init__(self, BOOL_country_data=False):
         #
-        url = "https://corona.lmao.ninja/"
+        url = "https://corona.lmao.ninja/v2/"
         serializedCountryData = None
         #
         try:
