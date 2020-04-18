@@ -4,7 +4,7 @@
       
       function getStats(){
         var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open( "GET", 'https://corona.lmao.ninja/countries', false );
+        xmlHttp.open( "GET", 'https://corona.lmao.ninja/v2/countries', false );
         xmlHttp.send( null );
         return xmlHttp.responseText;
         }
