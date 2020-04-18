@@ -54,7 +54,7 @@ class getCountryFlag:
 
 class covidUpdate:
     def __init__(self, BOOL_country_data=False):
-        #
+        # API Updated to endpoint: 'V2'
         url = "https://corona.lmao.ninja/v2/"
         serializedCountryData = None
         #
