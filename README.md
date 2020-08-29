@@ -47,7 +47,7 @@ print(x.countryData['China']['cases'])
 print(x.countryData['China']['todayCases'])
 
 ```
-### Download/Interact With CDC World Map:
+### Download/Interact With CDC World Map/World Flags:
 ```py
 
 from Covid19ApiWrapper import *
