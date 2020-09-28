@@ -1,7 +1,7 @@
 from requests import get
 import json
 from os import getcwd
-#NOT PROFICIENT FOR ASYNC! May crash sockets due to blocking.
+#NOT PROFICIENT FOR ASYNC! May be subject to blocking.
 
 class getCdcWorldMap:
     def __init__(self):
